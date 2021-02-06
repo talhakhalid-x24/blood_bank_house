@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "blood_bank_house",
+    "slug": "blood_bank_house",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "android": {
+      "package": "com.talhatech.blood_bank_house",
+      "versionCode": 1
+    },
+    "icon": "./assets/favicon.png",
+    "splash": {
+      "image": "./assets/favicon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/favicon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "blood.apk"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
